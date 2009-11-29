@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gameLayout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   
+    >
+        
+    <dk.androbet.game.HeaderImpl
+    	android:id="@+id/gameHeader"
+    	android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+	/>
+	
+	<dk.androbet.game.LadderPriceImpl
+	 	android:id="@+id/gameLadderPrice"
+    	android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:gravity="bottom"
+	/>
+	
+	
+</LinearLayout>

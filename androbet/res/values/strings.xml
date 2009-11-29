@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Andro Bet</string>
+    <string name="mainpage.title">Andro Bet</string>
+    <string name="mainpage.subtitle">Betting Exchange for Fun</string>
+    <string name="mainpage.author">http://androbet.blogspot.com</string>
+    <string name="mainpage.version">v1.0 alpha</string>
+    <string name="mainpage.startgame">Start game</string>
+    <string name="mainpage.help">Help</string>
+    <string name="mainpage.exit">Exit</string>
+    
+    <string name="help.summary">Andro Bet is a betting exchange simulation game. The aim is to make the highest profit by backing/laying the same selection in the market. Game starts with a screen presenting market view for a single selection that player can place bets on. After 3 minutes of the game the runner outcome (winner or loser) is calculated and the profit/loss is displayed on the screen.</string>
+    <string name="help.marketview">On top of market view there is a status bar that presents (from left to right):\n    - Profit for outcomes  winner/loser.\n    - Remaining time of a game.\n\nIn the centre of a market view there is a ladder price widget. The middle column contains all unmatched bets on a betting exchange: back(blue color), lay (pink color). Each cell contains two numbers: bet price and total value of unmatched bets on this price. The left and right columns present total value of player’s unmatched bets, the back bets are on the left side and the lay bets are on the right side. When player’s bet is matched then it disappears from the cell.</string>
+    <string name="help.placingBets">Player may place back/lay bets but once bet is placed it can’t be cancelled.  Bets are placed by tapping the cells in the left and right columns of a market view.  The size of one bet is 2, whereas the price is determined by the row tapped by player. To place a back bet, tap any cell in the left column. To place a lay bet, tap any cell in the right column. Left/right columns display only player’s bets that remain unmatched.</string>
+    <string name="help.gameResults">After game is finished the result is presented to a player. It contains starting price that is used to calculate selection’s outcome and the player’s profit.</string>
+   	<string name="help.thankyou">Thank you for your attention and I wish You good luck in a game!. Feel free to contact me by email: daniel.korzekwa@gmail.com</string>
+</resources>
