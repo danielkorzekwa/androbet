@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+	
+<LinearLayout 
+    android:id="@+id/helpLayout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+	<TextView 
+		android:text="@string/help.summary" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:padding="10px"
+		android:textColor="#FFFFFF"
+		android:textSize="14px"
+		>
+	</TextView>
+	
+	<ImageView  
+		android:src="@drawable/market_view"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:padding="10px"
+		>
+	</ImageView>
+	
+	<TextView 
+		android:text="@string/help.marketview" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:padding="10px"
+		android:textColor="#FFFFFF"
+		android:textSize="14px"
+		>
+	</TextView>
+	
+	<TextView 
+		android:text="@string/help.placingBets" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:padding="10px"
+		android:textColor="#FFFFFF"
+		android:textSize="14px"
+		>
+	</TextView>
+	
+	<TextView 
+		android:text="@string/help.gameResults" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:padding="10px"
+		android:textColor="#FFFFFF"
+		android:textSize="14px"
+		>
+	</TextView>
+	
+	<ImageView  
+		android:src="@drawable/game_results"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:padding="10px"
+		>
+	</ImageView>
+	
+	<TextView 
+		android:text="@string/help.thankyou" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:padding="10px"
+		android:textColor="#FFFFFF"
+		android:textSize="14px"
+		>
+	</TextView>
+	
+
+</LinearLayout>
+</ScrollView>
