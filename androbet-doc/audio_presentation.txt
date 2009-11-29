@@ -1,0 +1,10 @@
+Andro Bet, is a betting exchange simulation game. The aim is to make the highest profit by backing and laying the same selection in the market. Game starts with the screen presenting market view for a single selection that player can place bets on. After 3 minutes of the game the runner outcome (winner or loser) is calculated and the profit&loss is displayed on the screen. Let's start the game.
+
+On top of market view there is a status bar. On the left side of a status bar there is a profit for outcomes (winner and loser) that is based on all player's matched bets. On the right side of a status bar there is a remaining time of a game. In the centre of a market view there is a ladder price widget. The middle column contains all unmatched bets for all users on a betting exchange. Unmatched back bets, are on the blue background, whereas unmatched lay bets, are on the pink background. Each cell contains two numbers, on top of a cell there is a price,  whereas on the bottom of a cell  there is total value of unmatched bets for all users on this price. The left, and right columns, present all unmatched back and lay bets, placed by a player. The player's unmatched back bets, are in the left column, whereas the player's unmatched lay bets, are in the right column. When the player’s bet is matched then it disappears from the cell.
+
+Player may place back and lay bets, but once bet is placed, it can’t be cancelled.  Bets are placed by tapping the cells, in the left and right columns of a market view.  The size of one bet is 2, whereas the price is determined by the row tapped by a player. To place a back bet, tap 
+the cell in the left column. To place a lay bet, tap the cell in the right column. The left and right columns display only player’s bets that remain unmatched.
+
+After game is finished the result is presented to a player. It contains starting price that is used to calculate selection’s outcome and the player’s profit.
+
+Thank you for your attention and I wish You good luck in a game!.
